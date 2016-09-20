@@ -1,2 +1,2 @@
 # Votiee
-Votiee is used for lectures where it allows the lecturerto write questions with response options which the participants can answer digitally.
+Votiee is used for lectures where it allows the lecturerto write questions with response options which the participants can answer digitally.Votiee aims at creating an increased involvement of the participants, and the resultsfrom  the  answers  can  subsequently  be displayed  and  analyzed.  Votiee  is  designedto  run  on  devices  like  computers  or  smartphones  that  the  lecturer  and  participantsbrings themselves, and no additional equipment is therefore required.
