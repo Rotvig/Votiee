@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VotieeBackend", "VotieeBackend\VotieeBackend.csproj", "{0A80B769-1E4B-4EE3-A3A4-86E9A21DA33A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VotieeFrontend", "VotieeFrontend\VotieeFrontend.csproj", "{DC52DE3D-94F9-4078-9BE1-7B71B649CB07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VotieeBackendTests", "VotieeBackendTests\VotieeBackendTests.csproj", "{9CB8021C-B609-436A-B583-3E55FA15E248}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		End-to-end Testing|Any CPU = End-to-end Testing|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0A80B769-1E4B-4EE3-A3A4-86E9A21DA33A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A80B769-1E4B-4EE3-A3A4-86E9A21DA33A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A80B769-1E4B-4EE3-A3A4-86E9A21DA33A}.End-to-end Testing|Any CPU.ActiveCfg = End-to-end Testing|Any CPU
+		{0A80B769-1E4B-4EE3-A3A4-86E9A21DA33A}.End-to-end Testing|Any CPU.Build.0 = End-to-end Testing|Any CPU
+		{0A80B769-1E4B-4EE3-A3A4-86E9A21DA33A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A80B769-1E4B-4EE3-A3A4-86E9A21DA33A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC52DE3D-94F9-4078-9BE1-7B71B649CB07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC52DE3D-94F9-4078-9BE1-7B71B649CB07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC52DE3D-94F9-4078-9BE1-7B71B649CB07}.End-to-end Testing|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC52DE3D-94F9-4078-9BE1-7B71B649CB07}.End-to-end Testing|Any CPU.Build.0 = Debug|Any CPU
+		{DC52DE3D-94F9-4078-9BE1-7B71B649CB07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC52DE3D-94F9-4078-9BE1-7B71B649CB07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CB8021C-B609-436A-B583-3E55FA15E248}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CB8021C-B609-436A-B583-3E55FA15E248}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CB8021C-B609-436A-B583-3E55FA15E248}.End-to-end Testing|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CB8021C-B609-436A-B583-3E55FA15E248}.End-to-end Testing|Any CPU.Build.0 = Debug|Any CPU
+		{9CB8021C-B609-436A-B583-3E55FA15E248}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CB8021C-B609-436A-B583-3E55FA15E248}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

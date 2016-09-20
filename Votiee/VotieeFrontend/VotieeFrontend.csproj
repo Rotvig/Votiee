@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <ProjectGuid>{DC52DE3D-94F9-4078-9BE1-7B71B649CB07}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <OutputPath>bin</OutputPath>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <DebugType>full</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+    <TypeScriptToolsVersion>1.6</TypeScriptToolsVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="Content\bootstrap-theme.css" />
+    <Content Include="Content\bootstrap-theme.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="custom_scripts\object-watch.js" />
+    <Content Include="custom_scripts\spinners.css" />
+    <Content Include="favicon.ico" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="gulpfile.js" />
+    <Content Include="images\background_top.png" />
+    <Content Include="images\votiee_logo.png" />
+    <Content Include="index.html" />
+    <Content Include="packages.config" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Scripts\d3\d3.js" />
+    <Content Include="Scripts\d3\d3.min.js" />
+    <Content Include="Scripts\d3\LICENSE" />
+    <None Include="Scripts\jquery-1.9.1.intellisense.js" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\jquery-1.9.1.js" />
+    <Content Include="Scripts\jquery-1.9.1.min.js" />
+    <Content Include="Scripts\jquery-1.9.1.min.map" />
+    <Content Include="src\stylus\controls\Button.styl" />
+    <Content Include="src\stylus\pages\presenterPage\PresenterPagePiechart.styl" />
+    <Content Include="src\stylus\controls\ResultsView.styl" />
+    <None Include="src\stylus\index.styl" />
+    <Content Include="Scripts\jquery.signalR-2.2.0.js" />
+    <Content Include="Scripts\jquery.signalR-2.2.0.min.js" />
+    <Content Include="Scripts\lodash.js" />
+    <Content Include="Scripts\lodash.min.js" />
+    <Content Include="Scripts\react\JSXTransformer-0.13.1.js" />
+    <Content Include="Scripts\react\react-0.13.1.js" />
+    <Content Include="Scripts\react\react-0.13.1.min.js" />
+    <Content Include="Scripts\react\react-with-addons-0.13.1.js" />
+    <Content Include="Scripts\react\react-with-addons-0.13.1.min.js" />
+    <None Include="src\stylus\pages\frontPage\FrontPage.styl" />
+    <None Include="src\stylus\controls\TopBar.styl" />
+    <None Include="src\stylus\base\Colors.styl" />
+    <Content Include="src\stylus\pages\menuPage\MenuPage.styl" />
+    <None Include="src\stylus\pages\presenterPage\PresenterPage.styl" />
+    <Content Include="src\stylus\pages\surveyPage\SurveyPage.styl" />
+    <Content Include="src\stylus\pages\surveysOverviewPage\SurveysOverviewPage.styl" />
+    <Content Include="src\stylus\pages\loginPage\LoginPage.styl" />
+    <Content Include="src\stylus\pages\statisticsPage\StatisticsPage.styl" />
+    <Content Include="src\stylus\pages\statisticsOverviewPage\StatisticsOverviewPage.styl" />
+    <Content Include="src\stylus\pages\surveySessionPage\SurveySessionPage.styl" />
+    <None Include="src\stylus\pages\votingPage\VotingPage.styl" />
+    <Content Include="web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <TypeScriptCompile Include="src\scripts\controls\Piechart.ts" />
+    <TypeScriptCompile Include="src\scripts\controls\ResultsView.ts" />
+    <TypeScriptCompile Include="src\scripts\controls\Button.ts" />
+    <TypeScriptCompile Include="src\scripts\controls\Topbar.ts" />
+    <TypeScriptCompile Include="src\scripts\App.ts" />
+    <TypeScriptCompile Include="src\scripts\controls\InputButton.ts" />
+    <TypeScriptCompile Include="src\scripts\models\Models.ts" />
+    <TypeScriptCompile Include="src\scripts\pages\menuPage\components\AnonymousMenuView.ts" />
+    <TypeScriptCompile Include="src\scripts\pages\menuPage\components\UserMenuView.ts" />
+    <TypeScriptCompile Include="src\scripts\pages\menuPage\MenuPage.ts" />
+    <TypeScriptCompile Include="src\scripts\pages\presenterPage\PresenterPage.ts" />
+    <TypeScriptCompile Include="src\scripts\pages\statisticsOverviewPage\StatisticsOverviewPage.ts" />
+    <TypeScriptCompile Include="src\scripts\pages\surveyPage\components\OptionButtons.ts" />
+    <TypeScriptCompile Include="src\scripts\pages\surveySessionPage\SurveySessionPage.ts" />
+    <TypeScriptCompile Include="src\scripts\pages\surveySessionPage\components\SurveyItemsSessionView.ts" />
+    <TypeScriptCompile Include="src\scripts\pages\surveySessionPage\components\SurveyItemSessionView.ts" />
+    <TypeScriptCompile Include="src\scripts\pages\frontPage\FrontPage.ts" />
+    <TypeScriptCompile Include="src\scripts\pages\loginPage\components\Login.ts" />
+    <TypeScriptCompile Include="src\scripts\pages\loginPage\components\Register.ts" />
+    <TypeScriptCompile Include="src\scripts\pages\loginPage\LoginPage.ts" />
+    <TypeScriptCompile Include="src\scripts\pages\notFoundPage\NotFoundPage.ts" />
+    <TypeScriptCompile Include="src\scripts\pages\statisticsPage\components\AnswerResultStatisticsView.ts" />
+    <TypeScriptCompile Include="src\scripts\pages\statisticsPage\components\SurveyItemStatisticsView.ts" />
+    <TypeScriptCompile Include="src\scripts\pages\statisticsPage\components\SurveyItemsStatisticsView.ts" />
+    <TypeScriptCompile Include="src\scripts\pages\statisticsPage\StatisticsPage.ts" />
+    <TypeScriptCompile Include="src\scripts\pages\surveyPage\components\AnswerInputView.ts" />
+    <TypeScriptCompile Include="src\scripts\pages\surveyPage\components\SurveyItemView.ts" />
+    <TypeScriptCompile Include="src\scripts\pages\surveyPage\components\SurveyItemsView.ts" />
+    <TypeScriptCompile Include="src\scripts\pages\surveyPage\SurveyPage.ts" />
+    <TypeScriptCompile Include="src\scripts\pages\statisticsOverviewPage\components\StatisticOverviewItemView.ts" />
+    <TypeScriptCompile Include="src\scripts\pages\statisticsOverviewPage\components\StatisticOverviewView.ts" />
+    <TypeScriptCompile Include="src\scripts\pages\surveysOverviewPage\components\SurveysView.ts" />
+    <TypeScriptCompile Include="src\scripts\pages\surveysOverviewPage\components\SurveyView.ts" />
+    <TypeScriptCompile Include="src\scripts\pages\surveysOverviewPage\SurveysOverviewPage.ts" />
+    <TypeScriptCompile Include="src\scripts\pages\votingPage\components\AnswerChoice.ts" />
+    <TypeScriptCompile Include="src\scripts\pages\votingPage\components\AnswerSelector.ts" />
+    <TypeScriptCompile Include="src\scripts\utils\Globals.ts" />
+    <TypeScriptCompile Include="src\scripts\utils\ResolveClassNames.ts" />
+    <TypeScriptCompile Include="src\scripts\utils\Router.ts" />
+    <TypeScriptCompile Include="src\scripts\utils\Server.ts" />
+    <TypeScriptCompile Include="src\scripts\pages\votingPage\VotingPage.ts" />
+    <TypeScriptCompile Include="src\typings\bootstrap\bootstrap.d.ts" />
+    <TypeScriptCompile Include="src\typings\d3\d3.d.ts" />
+    <TypeScriptCompile Include="src\typings\jquery\jquery.d.ts" />
+    <TypeScriptCompile Include="src\typings\lodash\lodash.d.ts" />
+    <TypeScriptCompile Include="src\typings\react\react-global.d.ts" />
+    <TypeScriptCompile Include="src\typings\signalr\signalr.d.ts" />
+    <TypeScriptCompile Include="src\typings\tsd.d.ts" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="web.Debug.config">
+      <DependentUpon>web.config</DependentUpon>
+    </None>
+    <None Include="web.Release.config">
+      <DependentUpon>web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.AspNet.SignalR.Client, Version=2.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.SignalR.Client.2.2.0\lib\net45\Microsoft.AspNet.SignalR.Client.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=7.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.7.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">12.0</VisualStudioVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>VotieeFrontend</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'End-to-end Testing'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\</OutputPath>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\WebApplications\Microsoft.WebApplication.targets" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\WebApplications\Microsoft.WebApplication.targets')" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>2799</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:2799/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'">
+    <TypeScriptRemoveComments>True</TypeScriptRemoveComments>
+    <TypeScriptSourceMap>True</TypeScriptSourceMap>
+    <TypeScriptModuleKind>system</TypeScriptModuleKind>
+    <TypeScriptTarget>ES5</TypeScriptTarget>
+    <TypeScriptCompileOnSaveEnabled>True</TypeScriptCompileOnSaveEnabled>
+    <TypeScriptOutFile>.\build\bundle.js</TypeScriptOutFile>
+    <TypeScriptGeneratesDeclarations>True</TypeScriptGeneratesDeclarations>
+    <TypeScriptOutDir>.\build\</TypeScriptOutDir>
+    <TypeScriptMapRoot>.\build\</TypeScriptMapRoot>
+    <TypeScriptSourceRoot>.\build\</TypeScriptSourceRoot>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'">
+    <TypeScriptRemoveComments>true</TypeScriptRemoveComments>
+    <TypeScriptSourceMap>True</TypeScriptSourceMap>
+    <TypeScriptTarget>ES5</TypeScriptTarget>
+    <TypeScriptCompileOnSaveEnabled>True</TypeScriptCompileOnSaveEnabled>
+    <TypeScriptNoImplicitAny>False</TypeScriptNoImplicitAny>
+    <TypeScriptModuleKind>System</TypeScriptModuleKind>
+    <TypeScriptOutFile>C:\Workspace\votiee\Votiee\VotieeFrontend\build</TypeScriptOutFile>
+    <TypeScriptOutDir>C:\Workspace\votiee\Votiee\VotieeFrontend\build</TypeScriptOutDir>
+    <TypeScriptGeneratesDeclarations>False</TypeScriptGeneratesDeclarations>
+    <TypeScriptNoEmitOnError>True</TypeScriptNoEmitOnError>
+    <TypeScriptMapRoot>C:\Workspace\votiee\Votiee\VotieeFrontend\build</TypeScriptMapRoot>
+    <TypeScriptSourceRoot>C:\Workspace\votiee\Votiee\VotieeFrontend\src\scripts</TypeScriptSourceRoot>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets')" />
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

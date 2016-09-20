@@ -1,0 +1,55 @@
+﻿@import "base/Colors.styl"
+@import "controls/TopBar.styl"
+@import "controls/Button.styl"
+@import "controls/ResultsView.styl"
+@import "pages/frontPage/FrontPage.styl"
+@import "pages/loginPage/LoginPage.styl"
+@import "pages/votingPage/VotingPage.styl"
+@import "pages/surveyPage/SurveyPage.styl"
+@import "pages/menuPage/MenuPage.styl"
+@import "pages/surveysOverviewPage/SurveysOverviewPage.styl"
+@import "pages/statisticsOverviewPage/StatisticsOverviewPage.styl"
+@import "pages/statisticsPage/StatisticsPage.styl"
+@import "pages/surveySessionPage/SurveySessionPage.styl"
+@import "pages/presenterPage/PresenterPage"
+
+
+html
+	height 100%
+
+body
+	height 100% 
+	margin-top 0px
+	background-color #efeeee !important
+	max-width 1080px
+	margin auto !important
+	-webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.2);
+	box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.2);
+
+	&.presenter-mode
+		max-width none
+
+
+#react
+	height 100%
+
+	.three-quarters-loader.loading
+		z-index 999
+		position fixed
+		top 50%
+		left 50%
+		margin -16px 0 0 -16px
+
+	.overlay
+		position fixed
+		top 0
+		left 0
+		width 100%
+		height 100%
+		z-index 998
+		background-color rgba(0,0,0,0.1)
+
+	.state-calling
+	.state-ready
+		height: 100%

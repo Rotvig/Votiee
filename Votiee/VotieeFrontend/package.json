@@ -1,0 +1,29 @@
+{
+  "name": "React-TypeScript-Starter",
+  "version": "0.0.0",
+  "description": "An example/starter project for using React and TypeScript together",
+  "main": "index.js",
+  "scripts": {
+    "watch": "coffee -o ./tests/coffee-output -wc ./tests/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/austentalbot/React-TypeScript-Starter.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/austentalbot/React-TypeScript-Starter/issues"
+  },
+  "homepage": "https://github.com/austentalbot/React-TypeScript-Starter",
+  "dependencies": {
+    "coffee-script": "^1.10.0",
+    "gulp-watch": "^4.3.5",
+    "nightwatch": "^0.8.3",
+    "nightwatch-html-reporter": "^1.0.2"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-stylus": "^2.0.6"
+  }
+}
