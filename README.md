@@ -20,3 +20,4 @@ Votiee is used for lectures where it allows the lecturerto write questions with 
 * ASP.NET
 * EntityFramework
 * ASP.NET Identity
+* TypeScript
