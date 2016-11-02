@@ -12,7 +12,7 @@ Votiee is used for lectures where it allows the lecturerto write questions with 
 
 ### Testing ###
 * Backend has unit tests just run it with your favorite runner such as Resharper
-* Frontend has End-to-end testing. Too run the tests first start the backend with the configuration "End-to-end Testing". Then go into the test folder VotieeFrontend\tests and run compileAndWatch.cmd after the compilation is done run run-all-test.cmd to run the tests
+* Frontend has End-to-end testing. To run the tests first start the backend with the configuration "End-to-end Testing". Then go into the test folder VotieeFrontend\tests and run compileAndWatch.cmd after the compilation is done run run-all-test.cmd to run the tests
 
 ### Frameworks ###
 * React
